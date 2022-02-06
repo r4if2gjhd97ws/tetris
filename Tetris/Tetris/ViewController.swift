@@ -11,11 +11,13 @@ import SpriteKit
 class ViewController: NSViewController {
 
   var scene: YTGameScene!
+  
+  var skView: SKView!
 
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    let skView: SKView = view as! SKView
+    skView = SKView(frame: self.view.bounds)
 
 
     self.scene = YTGameScene(size: skView.bounds.size)
