@@ -8,7 +8,7 @@
 import Foundation
 import AppKit
 
-class YTTShape: YTShape {
+class YTTShape: YTCommonShape {
   /*
    
    Orientation: 0
@@ -43,7 +43,6 @@ class YTTShape: YTShape {
       Orientation.twoSeventy: [(0, 1), (1, 0), (1, 1), (1, 2)]
     ]
   }
-
 
   override var bottomBlocksForOrientations: [Orientation: Array<YTBlock>] {
 

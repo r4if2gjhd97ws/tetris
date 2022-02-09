@@ -43,8 +43,8 @@ let secondBlockIdx: Int = 1
 let thirdBlockIdx: Int = 2
 let fourthBlockIdx: Int = 3
 
-class YTShape: Hashable, CustomStringConvertible {
-  static func == (lhs: YTShape, rhs: YTShape) -> Bool {
+class YTCommonShape: Hashable, CustomStringConvertible {
+  static func == (lhs: YTCommonShape, rhs: YTCommonShape) -> Bool {
     return lhs.row == rhs.row && lhs.column == rhs.column
   }
 

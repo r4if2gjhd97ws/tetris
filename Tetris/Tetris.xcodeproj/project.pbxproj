@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		475BC27727B4019400236053 /* YTLineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BC27627B4019400236053 /* YTLineShape.swift */; };
+		475BC27A27B405E700236053 /* YTLShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BC27927B405E700236053 /* YTLShape.swift */; };
+		475BC27C27B4080C00236053 /* YTJShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BC27B27B4080C00236053 /* YTJShape.swift */; };
+		475BC27E27B40A2C00236053 /* YTSShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BC27D27B40A2C00236053 /* YTSShape.swift */; };
+		475BC28027B40C2500236053 /* YTZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BC27F27B40C2500236053 /* YTZShape.swift */; };
 		47EF906C279EE54D008322C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF906B279EE54D008322C5 /* AppDelegate.swift */; };
 		47EF906E279EE54D008322C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF906D279EE54D008322C5 /* ViewController.swift */; };
 		47EF9070279EE54E008322C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EF906F279EE54E008322C5 /* Assets.xcassets */; };
@@ -19,11 +24,16 @@
 		47EF9086279EE8AF008322C5 /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47EF9081279EE8AF008322C5 /* bomb.mp3 */; };
 		47EF9088279EEA10008322C5 /* YTArray2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF9087279EEA10008322C5 /* YTArray2D.swift */; };
 		47EF908A279EED04008322C5 /* YTBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF9089279EED04008322C5 /* YTBlock.swift */; };
-		47EF908C279EF02E008322C5 /* YTShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF908B279EF02E008322C5 /* YTShape.swift */; };
+		47EF908C279EF02E008322C5 /* YTCommonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF908B279EF02E008322C5 /* YTCommonShape.swift */; };
 		47EF908E279EF76D008322C5 /* YTTshape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF908D279EF76D008322C5 /* YTTshape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		475BC27627B4019400236053 /* YTLineShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTLineShape.swift; sourceTree = "<group>"; };
+		475BC27927B405E700236053 /* YTLShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTLShape.swift; sourceTree = "<group>"; };
+		475BC27B27B4080C00236053 /* YTJShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTJShape.swift; sourceTree = "<group>"; };
+		475BC27D27B40A2C00236053 /* YTSShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTSShape.swift; sourceTree = "<group>"; };
+		475BC27F27B40C2500236053 /* YTZShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTZShape.swift; sourceTree = "<group>"; };
 		47EF9068279EE54D008322C5 /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47EF906B279EE54D008322C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47EF906D279EE54D008322C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +48,7 @@
 		47EF9081279EE8AF008322C5 /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
 		47EF9087279EEA10008322C5 /* YTArray2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTArray2D.swift; sourceTree = "<group>"; };
 		47EF9089279EED04008322C5 /* YTBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTBlock.swift; sourceTree = "<group>"; };
-		47EF908B279EF02E008322C5 /* YTShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTShape.swift; sourceTree = "<group>"; };
+		47EF908B279EF02E008322C5 /* YTCommonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTCommonShape.swift; sourceTree = "<group>"; };
 		47EF908D279EF76D008322C5 /* YTTshape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTTshape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,6 +63,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		475BC27827B401B900236053 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				47EF908B279EF02E008322C5 /* YTCommonShape.swift */,
+				475BC27927B405E700236053 /* YTLShape.swift */,
+				475BC27B27B4080C00236053 /* YTJShape.swift */,
+				475BC27D27B40A2C00236053 /* YTSShape.swift */,
+				475BC27F27B40C2500236053 /* YTZShape.swift */,
+				475BC27627B4019400236053 /* YTLineShape.swift */,
+				47EF908D279EF76D008322C5 /* YTTshape.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
 		47EF905F279EE54C008322C5 = {
 			isa = PBXGroup;
 			children = (
@@ -72,14 +96,13 @@
 		47EF906A279EE54D008322C5 /* Tetris */ = {
 			isa = PBXGroup;
 			children = (
+				475BC27827B401B900236053 /* Shape */,
 				47EF907C279EE8AF008322C5 /* Sounds */,
 				47EF906B279EE54D008322C5 /* AppDelegate.swift */,
 				47EF906D279EE54D008322C5 /* ViewController.swift */,
 				47EF9087279EEA10008322C5 /* YTArray2D.swift */,
 				47EF907A279EE566008322C5 /* YTGameScene.swift */,
 				47EF9089279EED04008322C5 /* YTBlock.swift */,
-				47EF908B279EF02E008322C5 /* YTShape.swift */,
-				47EF908D279EF76D008322C5 /* YTTshape.swift */,
 				47EF906F279EE54E008322C5 /* Assets.xcassets */,
 				47EF9071279EE54E008322C5 /* Main.storyboard */,
 				47EF9074279EE54E008322C5 /* Tetris.entitlements */,
@@ -174,13 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47EF908C279EF02E008322C5 /* YTShape.swift in Sources */,
+				47EF908C279EF02E008322C5 /* YTCommonShape.swift in Sources */,
+				475BC28027B40C2500236053 /* YTZShape.swift in Sources */,
 				47EF906E279EE54D008322C5 /* ViewController.swift in Sources */,
+				475BC27727B4019400236053 /* YTLineShape.swift in Sources */,
+				475BC27C27B4080C00236053 /* YTJShape.swift in Sources */,
+				475BC27A27B405E700236053 /* YTLShape.swift in Sources */,
 				47EF908E279EF76D008322C5 /* YTTshape.swift in Sources */,
 				47EF9088279EEA10008322C5 /* YTArray2D.swift in Sources */,
 				47EF907B279EE566008322C5 /* YTGameScene.swift in Sources */,
 				47EF908A279EED04008322C5 /* YTBlock.swift in Sources */,
 				47EF906C279EE54D008322C5 /* AppDelegate.swift in Sources */,
+				475BC27E27B40A2C00236053 /* YTSShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
