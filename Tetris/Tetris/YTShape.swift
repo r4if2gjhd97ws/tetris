@@ -10,13 +10,13 @@ import OpenGL
 
 enum Orientation: Int, CustomStringConvertible, CaseIterable {
 
-  case zero, ninety, onEighty, twoSeventy
+  case zero, ninety, oneEighty, twoSeventy
 
   var description: String {
     switch self {
     case .zero: return "0"
     case .ninety: return "90"
-    case .onEighty: return "180"
+    case .oneEighty: return "180"
     case .twoSeventy: return "270"
     }
   }
